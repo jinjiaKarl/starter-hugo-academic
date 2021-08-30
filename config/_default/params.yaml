@@ -56,9 +56,9 @@ contact_links:
     link: 'https://discourse.gohugo.io'
 
 # Site header
-
+# Header
 main_menu:
-  enable: true
+  enable: false # 是否显示header
   align: l
   show_logo: true
   show_language: false
@@ -74,7 +74,7 @@ address_format: en-us
 
 # Site features
 
-highlight: true
+highlight: true # code sytax highlight
 highlight_languages:
   - r
 math: false
